@@ -9,5 +9,9 @@ public class MyController {
     public String showFirstView(){
         return "first-view";
     }
+@RequestMapping("/second")
+    public String showSecondView(){
+        return "second-view";
+    }
 
 }
